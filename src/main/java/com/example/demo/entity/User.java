@@ -11,6 +11,12 @@ public class User {
     int id;
     String name;
     String age;
+    /*
+    String last_name;
+    String phone_number;
+    String adress;
+    int rank; //code rank save in table
+    */
 
     public User(int id, String name, String age) {
         this.id = id;
@@ -29,7 +35,6 @@ public class User {
     public String getAge() {
         return age;
     }
-
     public void setAge(String age) {
         this.age = age;
     }
@@ -37,8 +42,8 @@ public class User {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
+
 }
